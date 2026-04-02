@@ -103,15 +103,62 @@ int main() {
 ///////////////////////// Comparação de Cartas
 
     printf("\n>>>>Duelo de Cartas<<<<\n");
-    printf("\nPopulação: Carta 1 venceu (%d)\n", populacao > populacao2);
-    printf("Área: Carta 1 venceu (%d)\n", area > area2);
-    printf("PIB: Carta 1 venceu (%d)\n", pib > pib2);
-    printf("Ponto Turistico: Carta 1 venceu (%d)\n", nturista > nturista2);
-    printf("Densidade Populacional: Carta 2 venceu (%d)\n", densidadep < densidadep2);
-    printf("PIB per Capita: Carta 1 venceu (%d)\n", pibpercapita > pibpercapita2);
-    printf("Super Poder : Carta 1 Venceu (%d)\n", resultado);
-    
 
+    if (populacao > populacao2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else{
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+    
+    if (area > area2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else{
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+
+    if (pib > pib2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else{
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+
+    if (nturista > nturista2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else{
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+    
+    if (densidadep < densidadep2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else{
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+
+    if (pibpercapita > pibpercapita2)
+    {
+        printf("\nCarta 1 - Sao Paulo (SP) venceu! \n");
+    }
+    else {
+        printf("\nCarta 2 - Rio de Janeiro (RJ) venceu! \n");
+    }
+    
+    if (superpoder > superpoder2)
+    {
+        printf("\n>>>>>>>>Carta 1 - Sao Paulo (SP) venceu!<<<<<<< \n");
+    }
+    else{
+        printf("\n>>>>>>>>Carta 2 - Rio de Janeiro (RJ) venceu o Duelo!<<<<<<< \n");
+    }
 
         return 0; 
 
